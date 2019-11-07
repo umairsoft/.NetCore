@@ -11,6 +11,8 @@ namespace CodeFirst.Data
 {
     public class DummyData
     {
+
+
         public static void Initialize(IApplicationBuilder app)
         {
             using (var ServiceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
